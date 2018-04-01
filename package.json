@@ -1,0 +1,36 @@
+{
+  "name": "node_project",
+  "version": "1.0.0",
+  "description": "Node,React,MongoDB website",
+  "main": "index.js",
+  "engines":{
+    "node":"8.1.1",
+    "npm":"5.0.3"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PriyankaDwivedi23/Node.js-Projects.git"
+  },
+  "keywords": [
+    "Node.Js",
+    "React",
+    "Redux",
+    "MongoDB",
+    "Express"
+  ],
+  "author": "Priyanka Dwivedi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PriyankaDwivedi23/Node.js-Projects/issues"
+  },
+  "homepage": "https://github.com/PriyankaDwivedi23/Node.js-Projects#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
