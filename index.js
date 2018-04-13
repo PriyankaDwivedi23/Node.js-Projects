@@ -33,7 +33,7 @@ if(process.env.NODE_ENV === 'production'){
    });
   }
 
-}
+
 //port get from heroku
 const PORT = process.env.PORT || 5000;
 app.listen(PORT);
