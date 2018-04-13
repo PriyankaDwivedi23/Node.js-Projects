@@ -14,15 +14,14 @@ app.get(
 app.get('/auth/google/callback',passport.authenticate('google'),(req,res)=> {
   res.redirect('/surveys');
 });
-
+//successful logout
 app.get('/api/logout',(req,res)=>{
   req.logout();
   res.redirect('/');
 });
-
+//to extract the profile
 app.get('/api/current_user', (req,res)=>{
   res.send(req.user)
 });
+
 };
-//prod key : 91568140000-5q872iecfs9h69frva89k8nfmeq7v7t0.apps.googleusercontent.com
-//secret : Mb9ejFAefB77Z979UT-pochS
